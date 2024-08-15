@@ -6,4 +6,4 @@
 
 ## Project Summary
 
-* Used to abstract class and abstract methods. 
+* Used abstract class and abstract methods. 
