@@ -14,10 +14,9 @@ namespace AbstractExample
 
         public string Surname { get; set; }
 
-
         public string Position { get; set; }
 
-        public CompanyInfo()
+        public CompanyInfo() //main constructor
         {
             Console.WriteLine("Adınız:");
             Name = Console.ReadLine();
@@ -29,10 +28,10 @@ namespace AbstractExample
             Position = Console.ReadLine();
 
         }
-        public abstract void Job();
+        public abstract void Job(); // abstract metot
     }
 
-    public class JobInfo : CompanyInfo
+    public class JobInfo : CompanyInfo 
     {
 
         public override void Job()
